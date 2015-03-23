@@ -5,6 +5,10 @@ angular.module('drissApp')
     $scope.menu = [{
       'title': 'Home',
       'link': '/'
+    },
+    {
+      'title': 'sample',
+      'link': '/sample'
     }];
 
     $scope.isCollapsed = true;
