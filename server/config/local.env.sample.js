@@ -8,6 +8,11 @@
 module.exports = {
   DOMAIN:           'http://localhost:9000',
   SESSION_SECRET:   'driss-secret',
+  MYSQL_PASSWORD: 'root',
+  MYSQL_DB: 'driss',
+  MYSQL_USER: 'root',
+  MYSQL_PORT: 3308,
+  MYSQL_URI: 'localhost',
 
   // Control debug level for modules using visionmedia/debug
   DEBUG: ''
